@@ -43,13 +43,13 @@ class Circle extends Shape
 	public void perimeter()
 	{
 		double p= (2*Math.PI*r);
-		System.out.println("Circle Perimeter= "+p);
+		System.out.println("Perimeter of Circle= "+p);
 	}
 	
 	public void area()
 	{
 		double a=Math.PI*r*r;
-		System.out.println("Circle Area= "+a);
+		System.out.println("Area of Circle= "+a);
 	}
 
 }
